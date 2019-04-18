@@ -43,6 +43,9 @@ rest.app.restroot=api
 rest.app.user=admin
 rest.app.password=test
 ```
+You can see all options at https://github.com/Activiti/Activiti/blob/6.x/modules/activiti-admin/src/main/resources/META-INF/activiti-admin/activiti-admin.properties
+
+# Admin + custom workflow application 
 
 You can use the sample docker-compose-service-sample.yaml file as a starter to deploy your own application in conjunction with the Activiti Admin interface
 
