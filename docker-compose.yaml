@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  activiti-admin:
+    image: jylups/activiti-admin
+    ports: 
+     - "8888:8080"
+    environment:
+     - "JAVA_OPTS=-Drest.app.host=http://workflow"
