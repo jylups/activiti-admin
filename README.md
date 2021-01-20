@@ -4,7 +4,7 @@ Activiti Admin requires a HTTP connection to your activiti engine. The applicati
 
 You can test this image with the following command:
 ```
-docker run --rm -p 8080:8080 activiti-admin
+docker run --rm -p 8080:8080 jylups/activiti-admin
 ```
 
 This will start the container listening to port 8080. 
