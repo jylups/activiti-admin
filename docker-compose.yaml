@@ -6,4 +6,4 @@ services:
     ports: 
      - "8888:8080"
     environment:
-     - "JAVA_OPTS=-Drest.app.host=http://workflow"
+     - "JAVA_OPTS=-Drest.app.host=http://host.docker.internal:9883"
